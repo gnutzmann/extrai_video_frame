@@ -1,4 +1,4 @@
-# Extrai Imagem
+# Extrai frames
 
 Este é um programa de linha de comando (CLI) em Python que extrai todos os frames de um arquivo de vídeo e os salva como imagens no formato PNG. Os frames são armazenados em uma pasta chamada `image_output`, que é criada dentro de uma pasta com o nome do arquivo de vídeo original (sem a extensão).
 
