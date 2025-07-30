@@ -9,7 +9,7 @@ def extract_frames(video_file):
         return
 
     video_name = os.path.splitext(os.path.basename(video_file))[0]
-    output_dir = os.path.join(os.getcwd(), video_name)
+    output_dir = os.path.join(os.getcwd(), "image_output", video_name)
 
     os.makedirs(output_dir, exist_ok=True)
 
